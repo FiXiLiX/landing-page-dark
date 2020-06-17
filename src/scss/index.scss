@@ -1,0 +1,46 @@
+@import 'variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark-image-bg {
+    background: url('images/man-in-dark.jpg');
+}
+
+header {
+    width: 100%;
+    min-height: 650px;
+
+
+    #header-main-text {
+        border: 2px solid whitesmoke;
+        color: whitesmoke;
+        padding: 3em;
+        letter-spacing: 2px;
+    }
+
+    #header-up {
+        min-height: 600px;
+    }
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item-end {
+    align-self: flex-end;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.flex-item-center {
+    flex: none;
+}
